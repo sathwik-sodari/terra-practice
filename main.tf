@@ -1,11 +1,3 @@
-provider "google" {
-  project = "tfgcptraining"
-  region = "us-east4"
-  zone = "us-east4-a"
-  
-}
-
-
 terraform {
   backend "azurerm" {
     storage_account_name = "mat1tr123456"
